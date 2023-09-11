@@ -1,0 +1,42 @@
+# //  Questa Sim
+# //  Version 10.6c win32 Jul 26 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# vsim sc_main 
+# Start time: 14:17:06 on Jun 06,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading D:/HocTap/DA_1/ALU_dut/work\_sc\win32_gcc-4.2.1\systemc.so
+# Loading D:/HocTap/DA_1/ALU_dut/work.sc_main
+# Loading sv_std.std
+# Loading work.TOP(fast)
+# ** Warning: (vsim-6667) The declared name and constructor argument for instance 'sc_main.ExampleTest' are different. To enable debug support of simulation objects created by sc_main() the declared name and the constructor argument have to be the same.
+run -all
+# ** Note: (vsim-17401) default timescale unit used for tracing: 1 ns (ALU_waveform.vcd).
+# 5 ns: A = 23475; B = 5395; control = 0; result = 28870; result_X = 0
+# 15 ns: A = 28639; B = -3601; control = 1; result = 32240; result_X = 0
+# 25 ns: A = 12065; B = 24250; control = 2; result = 3616; result_X = 0
+# 35 ns: A = 25386; B = -17745; control = 3; result = -25387; result_X = 0
+# 45 ns: A = -22134; B = 1712; control = 4; result = -20550; result_X = 0
+# 55 ns: A = -18628; B = -24810; control = 5; result = 10282; result_X = 0
+# 65 ns: A = 1993; B = 4400; control = 6; result = 1993; result_X = 0
+# 75 ns: A = 37; B = 28913; control = 7; result = 18; result_X = 0
+# 85 ns: A = 23190; B = 28229; control = 8; result = -8594; result_X = 9988
+# 95 ns: A = -31084; B = -25484; control = 9; result = 1; result_X = -5600
+# 105 ns: A = -27197; B = -4690; control = 10; result = 10; result_X = 26031
+# 115 ns: A = 8153; B = 17783; control = 11; result = 63; result_X = 22
+# ** Error: (vsim-6577) The module 'sc_main/ExampleTest'
+# In process: sc_main/sc_main @ 120 ns is being destroyed before quitting the current simulation session. Make sure that it is not declared as a local variable on the stack of a function. If this is a heap or stack allocated object created from sc_main(), make sure to call sc_start(-1) before returning from sc_main() or before calling any destructors for heap allocated objects
+# ** Fatal: Fatal SystemC error detected, exiting...
+#    Time: 120 ns  Iteration: 0  Process: /sc_main/sc_main File: testbench.cpp
+# End time: 14:25:49 on Jun 06,2023, Elapsed time: 0:08:43
+# Errors: 2, Warnings: 1, Suppressed Warnings: 1

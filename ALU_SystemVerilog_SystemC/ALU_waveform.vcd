@@ -1,0 +1,157 @@
+$date
+     Jun 06, 2023       14:17:18
+$end
+
+$version
+ SystemC 2.3.1 --- Jul 26 2017 04:29:31
+$end
+
+$timescale
+     1 ns
+$end
+
+$scope module SystemC $end
+$var wire    1  aaaaa  clk       $end
+$var wire   16  aaaab  A [15:0]  $end
+$var wire   16  aaaac  B [15:0]  $end
+$var wire    4  aaaad  control [3:0]  $end
+$var wire   16  aaaae  result [15:0]  $end
+$var wire   16  aaaaf  result_X [15:0]  $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+1aaaaa
+b101101110110011 aaaab
+b1010100010011 aaaac
+b0 aaaad
+b111000011000110 aaaae
+b0 aaaaf
+$end
+
+#5
+0aaaaa
+b110111111011111 aaaab
+b1111000111101111 aaaac
+b1 aaaad
+b111110111110000 aaaae
+
+#10
+1aaaaa
+
+#15
+0aaaaa
+b10111100100001 aaaab
+b101111010111010 aaaac
+b10 aaaad
+b111000100000 aaaae
+
+#20
+1aaaaa
+
+#25
+0aaaaa
+b110001100101010 aaaab
+b1011101010101111 aaaac
+b11 aaaad
+b1001110011010101 aaaae
+
+#30
+1aaaaa
+
+#35
+0aaaaa
+b1010100110001010 aaaab
+b11010110000 aaaac
+b100 aaaad
+b1010111110111010 aaaae
+
+#40
+1aaaaa
+
+#45
+0aaaaa
+b1011011100111100 aaaab
+b1001111100010110 aaaac
+b101 aaaad
+b10100000101010 aaaae
+
+#50
+1aaaaa
+
+#55
+0aaaaa
+b11111001001 aaaab
+b1000100110000 aaaac
+b110 aaaad
+b11111001001 aaaae
+
+#60
+1aaaaa
+
+#65
+0aaaaa
+b100101 aaaab
+b111000011110001 aaaac
+b111 aaaad
+b10010 aaaae
+
+#70
+1aaaaa
+
+#75
+0aaaaa
+b101101010010110 aaaab
+b110111001000101 aaaac
+b1000 aaaad
+b1101111001101110 aaaae
+b10011100000100 aaaaf
+
+#80
+1aaaaa
+
+#85
+0aaaaa
+b1000011010010100 aaaab
+b1001110001110100 aaaac
+b1001 aaaad
+b1 aaaae
+b1110101000100000 aaaaf
+
+#90
+1aaaaa
+
+#95
+0aaaaa
+b1001010111000011 aaaab
+b1110110110101110 aaaac
+b1010 aaaad
+b1010 aaaae
+b110010110101111 aaaaf
+
+#100
+1aaaaa
+
+#105
+0aaaaa
+b1111111011001 aaaab
+b100010101110111 aaaac
+b1011 aaaad
+b111111 aaaae
+b10110 aaaaf
+
+#110
+1aaaaa
+
+#115
+0aaaaa
+b1111011110000000 aaaab
+b1010000101110100 aaaac
+b1100 aaaad
+b1001100011110100 aaaae
+b0 aaaaf
+
